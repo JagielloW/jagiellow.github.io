@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    
+
     <header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
@@ -37,13 +37,12 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.youtube.com" target="_blank">
-                                <img style="width: 35px; margin-inline: 1em;" src="source/images/yt.png" alt="...">
+                                <img src="source/images/yt.png" alt="...">
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.facebook.com" target="_blank">
-                                <img style="width: 25px; margin-inline: 1em;" src="source/images/facebook-icon-33.png"
-                                    alt="...">
+                                <img src="source/images/facebook-icon-33.png" alt="...">
                             </a>
                         </li>
                     </ul>
@@ -56,37 +55,33 @@
         <div class="container-fluid p-5">
             <div class="form-text">
                 <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputSurname" class="form-label">Surname</label>
+                        <input type="text" class="form-control" id="inputSurname">
+                    </div>
                     <div class="col-12">
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputAddress">
-                        </div>
                         <label for="inputEmail4" class="form-label">Email</label>
                         <input type="email" class="form-control" id="inputEmail4">
                     </div>
                     <div class="col-12">
-                        <label for="inputPassword4" class="form-label">Surname</label>
-                        <input type="password" class="form-control" id="inputPassword4">
+                        <label for="inputTheme" class="form-label">Theme</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                     <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Contact phone</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputCity" class="form-label">Question topic</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Check me out
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <a href="index.html"><button type="submit" class="btn btn-primary">SEND</button></a>
+                        <button type="submit" class="btn btn-primary">SEND</button>
                     </div>
                 </form>
             </div>
@@ -106,9 +101,8 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 media-links">
-                        <a href="https://www.youtube.com" target="_blank"><img style="width: 45px; margin-inline: 1em;"
-                                src="source/images/yt.png" alt="..."></a>
-                        <a href="https://www.facebook.com" target="_blank"><img style="width: 35px; margin-inline: 1em;"
+                        <a href="https://www.youtube.com" target="_blank"><img src="source/images/yt.png" alt="..."></a>
+                        <a class="fb" href="https://www.facebook.com" target="_blank"><img
                                 src="source/images/facebook-icon-33.png" alt="..."></a>
                     </div>
                 </div>

@@ -8,6 +8,11 @@ header {
     z-index: 100;  
     width: 100%;  
     }
+
+.container-fluid img {
+    width: 35px;
+}
+
     
 section {
     margin-top: 40px;
@@ -31,10 +36,6 @@ p {
 
 .navbar-nav .nav-link.active {
     color: rgb(160, 156, 156);
-}
-
-.navbar-brand img {
-    width: 40px;
 }
 
 .navbar-toggler {
@@ -75,6 +76,10 @@ p {
 footer,
 .btn-outline-primary {
     background: linear-gradient(270deg, #6a4491 0%, #1b062e 100%);
+}
+
+.fb {
+    margin-left: 20px;
 }
 
 .form-text {
