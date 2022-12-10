@@ -49,12 +49,8 @@ p {
     background: linear-gradient(270deg, #6a4491 0%, #1b062e 100%);
 }
 
-.carousel-inner {
-    padding: 100px;
-}
-
 .heigth-foto {
-    height: 475px;
+    height: 425px;
     display: flex;
     align-items: center;
 }
@@ -77,6 +73,10 @@ p {
 section {
     margin-bottom: 85px;
     height: 100%;
+}
+
+.carousel-inner {
+    padding: 100px;
 }
 
 .slide-text,
@@ -110,8 +110,7 @@ footer {
 .media-links {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .call-anim {
@@ -146,9 +145,36 @@ footer {
 	}
 }
 
-@media (max-width: 755px) {
-    .carousel-indicators {
-        display: none;
+@media (min-width: 1441px) {
+    .carousel-inner {
+        padding: 200px;
+    }
+    .heigth-foto {
+            height: 800px;
+    }  
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    .heigth-foto {
+        height: 450px;
     }
 }
 
+@media (min-width: 770px) and (max-width: 1024px){
+    .heigth-foto {
+        height: 275px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .heigth-foto {
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .carousel-indicators {
+        display: none;
+    } 
+}
