@@ -74,6 +74,11 @@ p {
     color: aquamarine;
 }
 
+section {
+    margin-bottom: 85px;
+    height: 100%;
+}
+
 .slide-text,
 .footer-text {
     color: aquamarine;
@@ -82,13 +87,11 @@ p {
 
 .foot-cont {
     background: linear-gradient(270deg, #6a4491 0%, #1b062e 100%);
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
 
-footer,
-.btn-outline-primary {
+footer {
+    position: absolute;
+    width: 100%;
     background: linear-gradient(270deg, #6a4491 0%, #1b062e 100%);
 }
 
