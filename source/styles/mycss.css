@@ -1,44 +1,45 @@
-
 @import url('https://fonts.googleapis.com/css?family=Architects Daughter&display=swap');
 
-header {  
-    background-color: white;  
-    position: fixed;  
-    top: 0;  
-    z-index: 100;  
-    width: 100%;  
-    }
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
 
-    
+
+
 body {
-        font-family: Architects Daughter, serif;
-        background: linear-gradient(90deg, #6a4491 0%, #1b062e 100%); 
-    }
-    
+    max-width: 1440px;
+    font-family: Architects Daughter, serif;
+    background: linear-gradient(90deg, #6a4491 0%, #1b062e 100%);
+}
+
 nav {
-        position: fixed;
-        top: 0;
-    }
+    position: fixed;
+    top: 0;
+}
 
 .nav-link {
-        color: aquamarine;
-    }
+    color: aquamarine;
+}
 
 .navbar-nav .nav-link.active {
-        color: rgb(160, 156, 156);
-    }
-    
+    color: rgb(160, 156, 156);
+}
+
 .navbar-toggler {
-        background-color: dimgray;
-    }
+    background-color: dimgray;
+}
 
 section {
-        padding-top:  40px;
-        }
+    padding-top: 40px;
+}
 
 .container-fluid img {
-        width: 35px;
-    }
+    width: 35px;
+}
 
 p {
     color: aquamarine;
@@ -82,7 +83,7 @@ section {
 .slide-text,
 .footer-text {
     color: aquamarine;
-    margin: auto auto; 
+    margin: auto auto;
 }
 
 .foot-cont {
@@ -110,7 +111,7 @@ footer {
 .media-links {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .call-anim {
@@ -118,57 +119,67 @@ footer {
 }
 
 @keyframes myAnim {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
 
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
-
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
-
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
-
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
-
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
-}
-
-@media (min-width: 1441px) {
-    .carousel-inner {
-        padding: 200px;
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
     }
-    .heigth-foto {
-            height: 800px;
-    }  
-}
 
-@media (min-width: 1025px) and (max-width: 1440px){
-    .heigth-foto {
-        height: 450px;
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
     }
 }
 
-@media (min-width: 770px) and (max-width: 1024px){
+@media (max-width: 1024px) {
     .heigth-foto {
-        height: 275px;
+        height: 300px;
     }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
+@media (max-width: 992px) {
     .heigth-foto {
-        height: 450px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heigth-foto {
+        height: 425px;
+    }
+}
+
+@media (max-width: 767px) {
+    .heigth-foto {
+        height: 950px;
+    }
+}
+
+@media (max-width: 700px) {
+    .heigth-foto {
+        height: 825px;
+    }
+}
+
+@media (max-width: 425px) {
+    .heigth-foto {
+        height: 500px;
     }
 }
 
@@ -176,5 +187,5 @@ footer {
 @media (max-width: 767px) {
     .carousel-indicators {
         display: none;
-    } 
+    }
 }
