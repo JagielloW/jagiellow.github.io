@@ -168,7 +168,7 @@ footer {
 
 @media (max-width: 991px) {
     ul.navbar-nav {
-        background-color: black;
+        background-color: #212529;
         position: absolute;
         top: 50px;
         right: 0;
