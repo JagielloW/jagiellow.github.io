@@ -175,7 +175,7 @@ footer {
     }
 
     ul.navbar-nav li {
-        margin: 5px;
+        margin: 0 100px;
         display: block;
         text-align: center;
     }
