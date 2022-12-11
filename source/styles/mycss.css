@@ -23,6 +23,7 @@ nav {
     color: aquamarine;
 }
 
+
 .navbar-nav .nav-link.active {
     color: rgb(160, 156, 156);
 }
@@ -33,6 +34,16 @@ nav {
 
 section {
     padding-top: 40px;
+}
+
+ul.navbar-nav {
+    position: absolute;
+    right: 12px;
+}
+
+ul.navbar-nav li {
+    display: flex;
+    align-items: center;
 }
 
 .container-fluid img {
@@ -154,6 +165,7 @@ footer {
         height: 300px;
     }
 }
+
 @media (max-width: 991px) {
     ul.navbar-nav {
         background-color: black;
@@ -161,11 +173,14 @@ footer {
         top: 50px;
         right: 0;
     }
-    ul.navbar-nav  li {
+
+    ul.navbar-nav li {
         margin: 5px;
+        display: block;
         text-align: center;
     }
-}    
+}
+
 @media (max-width: 992px) {
     .heigth-foto {
         height: 600px;
@@ -182,6 +197,7 @@ footer {
     .heigth-foto {
         height: 950px;
     }
+
     .carousel-indicators {
         display: none;
     }
